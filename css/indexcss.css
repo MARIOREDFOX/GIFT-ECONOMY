@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+body{
+  background: white;
+  height: 100vh;
+}
+ul{
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+  margin-right: 40px;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 0.2px;
+  transition: 0.5s ease;
+}
+ul li a:hover{
+  border: 1px solid purple;
+  padding: 2px 20px;
+  border-radius: 3px;
+  color: black;
+}
+ul li a.active{
+  border-bottom: 2px solid black;
+  color: black;
+}
+ul li a.login{
+  border: 1px solid black;
+  padding: 2px 20px;
+  border-radius: 3px;
+  color: black;
+}
+ul li a.login:hover{
+  background-color: purple;
+  color: white;
+}
+ul li a.register{
+  border: 1px solid black;
+  padding: 2px 20px;
+  border-radius: 3px;
+  color: black;
+}
+ul li a.register:hover{
+  background-color: purple;
+  color: white;
+}
+
+.title{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color: black;
+  font-size: 55px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.title p{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+.structure{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  height: 0;
+  padding-bottom: 1px;
+
+}
+.footer{
+	position: fixed;
+	bottom: 0px;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+	font-family: Arial;
+	text-shadow: 1px 1px 1px black;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.25);
+}
